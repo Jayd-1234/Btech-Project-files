@@ -1,0 +1,39 @@
+\BOOKMARK [0][-]{chapter*.1}{Contents}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Declaration}{}% 2
+\BOOKMARK [0][-]{chapter.2}{Certificate from HOD}{}% 3
+\BOOKMARK [0][-]{chapter.3}{Certificate from Supervisor}{}% 4
+\BOOKMARK [0][-]{chapter.4}{Acknowledgements}{}% 5
+\BOOKMARK [0][-]{chapter.5}{Abstract}{}% 6
+\BOOKMARK [0][-]{chapter.6}{Introduction}{}% 7
+\BOOKMARK [1][-]{section.6.1}{Voltage sag}{chapter.6}% 8
+\BOOKMARK [1][-]{section.6.2}{Voltage Tolerance Curves}{chapter.6}% 9
+\BOOKMARK [2][-]{subsection.6.2.1}{Automatic Speed Drives:}{section.6.2}% 10
+\BOOKMARK [2][-]{subsection.6.2.2}{Personal computers \(PCs\)}{section.6.2}% 11
+\BOOKMARK [2][-]{subsection.6.2.3}{AC Coil Contactors:}{section.6.2}% 12
+\BOOKMARK [2][-]{subsection.6.2.4}{Programmable Logic Controller \(PLCs\) }{section.6.2}% 13
+\BOOKMARK [2][-]{subsection.6.2.5}{5 HP AC Drive}{section.6.2}% 14
+\BOOKMARK [2][-]{subsection.6.2.6}{Motor Starter}{section.6.2}% 15
+\BOOKMARK [0][-]{chapter.7}{Literature Review}{}% 16
+\BOOKMARK [0][-]{chapter.8}{Chapter 2}{}% 17
+\BOOKMARK [1][-]{section.8.1}{Objectives}{chapter.8}% 18
+\BOOKMARK [1][-]{section.8.2}{Brief Problem Discussion}{chapter.8}% 19
+\BOOKMARK [0][-]{chapter.9}{Probabilistic Trip Estimation}{}% 20
+\BOOKMARK [1][-]{section.9.1}{Overview}{chapter.9}% 21
+\BOOKMARK [1][-]{section.9.2}{Detailed Analysis}{chapter.9}% 22
+\BOOKMARK [2][-]{subsection.9.2.1}{Non-linear Regression}{section.9.2}% 23
+\BOOKMARK [2][-]{subsection.9.2.2}{Levenberg-Marquardt method}{section.9.2}% 24
+\BOOKMARK [2][-]{subsection.9.2.3}{Probability Estimation}{section.9.2}% 25
+\BOOKMARK [2][-]{subsection.9.2.4}{Process Trip Estimation}{section.9.2}% 26
+\BOOKMARK [0][-]{chapter.10}{Problem formulation}{}% 27
+\BOOKMARK [1][-]{section.10.1}{To be edited}{chapter.10}% 28
+\BOOKMARK [0][-]{chapter.11}{Results and Discussion}{}% 29
+\BOOKMARK [1][-]{section.11.1}{Personal Computers}{chapter.11}% 30
+\BOOKMARK [1][-]{section.11.2}{PLC}{chapter.11}% 31
+\BOOKMARK [1][-]{section.11.3}{ASD}{chapter.11}% 32
+\BOOKMARK [1][-]{section.11.4}{Motor Starter}{chapter.11}% 33
+\BOOKMARK [1][-]{section.11.5}{Contactor}{chapter.11}% 34
+\BOOKMARK [1][-]{section.11.6}{Relay}{chapter.11}% 35
+\BOOKMARK [0][-]{chapter.12}{Conclusions and future work}{}% 36
+\BOOKMARK [1][-]{section.12.1}{Conclusions}{chapter.12}% 37
+\BOOKMARK [1][-]{section.12.2}{Future Work}{chapter.12}% 38
+\BOOKMARK [0][-]{chapter.13}{References}{}% 39

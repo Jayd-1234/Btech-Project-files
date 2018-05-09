@@ -1,0 +1,89 @@
+\documentclass[12pt, twocolumn]{extreport}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{minted}
+
+\begin{document}
+	\chapter{Optimum Cost of Voltage Sag through proper bus assignment}
+	\section[Introduction]{\textit{Introduction}} 
+	\section[Objective and formulation of the problem]{\textit{Objective and formulation of the problem}}
+	
+	\subsection[Downtime cost estimation]{Downtime cost estimation} Let us denote the cost of downtime for a bus for one process trip by \begin{align*}
+	C^{d1}_{j} ,\quad j=1,2,\ldots, n 
+	\end{align*}
+	 where j is the bus index, and n is the number of buses.
+	 So, if a process trips $ m $ times, the total cost of downtime would  be \begin{align}
+	 C^{d}_{j} = m*C^{d1}_{j}
+	 \label{eq:cost_of_downtime_index}
+	 \end{align}
+	 
+	 Thus, for n buses, we will end up with a cost of downtime vector \begin{align}
+	 C^{d} = \begin{bmatrix}
+	 C^{d}_{1} & C^{d}_{2} & \ldots & C^{d}_{n}
+	 \end{bmatrix}
+	 \label{eq:cost_of_downtime_vec}
+	 \end{align}
+	 
+	 Now, let us consider that a process has trip probability of $ p_{i} $ corresponding to voltage sag point $ V^{p}_{i} = \{t_{i}, V_{i}\} $. The the probable number of trips can be estimated as the number of sag points for which $ p_{i} \geq 0.9 $ (we consider this for safety factor). Thus \begin{align*}
+	 m = \sum_{i}i \quad \forall p_{i} \geq 0.9
+	 \end{align*}
+	 
+	 This value of m can now be included in equation \ref{eq:cost_of_downtime_index} to find out $ C^{d}_{i} $.
+	 \subsection[Running Cost of Process]{Running Cost of Process} Each process in a plant has a fixed power that it needs to consume to run itself. This introduces cost of procuring that power. We consider the following cost function for estimating the cost
+	 \begin{align}
+	 C^{r}_{i} = a + b*p_{i}+c *p_{i}^{2} \label{eq:cost_of_running}
+	 \end{align}
+	 
+	 where \begin{equation*}
+	 \begin{aligned}
+	 a &= Fixed \: Cost \\ b &= \mathit{Coefficient \: of \: cost \: due \: power \: consumption } \\
+	 c &= \mathit{Coefficient \: of \: cost \: due \: power \: loss} \\
+	 j &= \mathit{Process \: index}
+	 \end{aligned}
+	 \end{equation*}
+	 
+	 \subsection[Optimum Cost problem]{Optimum Cost problem} With the above foundation at hand, we can now define the optimum cost problem as follows :
+	 \begin{align}
+	 Min \quad &C = \sum_{j=1}^{n}\sum_{i=1}^{p}( C^{d}_{j}+C^{r}_{i})
+	 \label{eq:total_cost_sum} 
+	 \end{align} 
+	 Where, \begin{align*}
+	 j &= bus \: index \\
+	 i &= process \: index \\
+	 n &= number \: of \: buses \\
+	 p &= number \: of \: processes
+	 \end{align*}
+	  Our problem is to assign process to proper buses such that the total cost can be minimized.
+	 \section[Algorithm For solution]{\textit{Algorithm for Solution}} 
+	 We begin by considering that if process $ j $ is assigned to bus $ i $, then the cost for this combination is given by \begin{align}
+		 c_{ij} = C^{d}_{i}+C^{r}_{j}
+	 \end{align}
+	 
+	 Considering for all such combinations, we will end up with a cost matrix \begin{align}
+	 C = \begin{bmatrix}
+	 c_{11} & c_{12} & \ldots & c_{1n} \\
+	 c_{21} & c_{22} & \ldots & c_{2n} \\
+	 \vdots & \vdots &\ddots   & \vdots \\
+	 c_{p1} & c_{p2} & \ldots & c_{pn} \\
+	 \end{bmatrix}
+	 \label{eq:cost_matrix}
+	 \end{align}
+	 
+	 To find the optimum bus assignment, we note that row elements correspond to cost, when a particular process is connected to the n buses. Thus, to mind the best bus assignment, we need to find the index of minimum value along each row, which will give us the least cost that the process will yield, when connected to that bus. \\  Thus, we find the optimum bus index j for process i such that \begin{align}
+	 c_{ij} = min{\begin{bmatrix*}
+	 	c_{i1} & c_{i2} & \ldots & c_{in}
+	 	\end{bmatrix*}}
+	 \end{align} 
+	 This can be achieved easily with matlab function \begin{minted}{matlab}
+	 [c, I] = min(C')
+	 \end{minted}
+	 
+	 where I gives the bus index vector, and C gives the minimum cost vector. Thus, we will need to assign process i to it corresponding bus index $ I(i) $, to achieve minimum cost of $ c(i) $. \\ \\
+	 The minimum cost will thus be $ C_{min} = \sum_{j} c_{j} $, and can be calculated in matlab as 
+	 \begin{minted}{matlab}
+	 min_cost = sum(c)
+	 \end{minted}
+	 
+	 \section[Results]{\textit{Results}} 
+	 %TODO
+\end{document}

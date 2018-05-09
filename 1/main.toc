@@ -1,0 +1,11 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Voltage sag}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {1.2}Voltage Tolerance Curves}{5}
+\contentsline {subsection}{\numberline {1.2.1}Automatic Speed Drives:}{5}
+\contentsline {subsection}{\numberline {1.2.2}Personal computers (PCs)}{8}
+\contentsline {subsection}{\numberline {1.2.3}AC Coil Contactors:}{9}
+\contentsline {subsection}{\numberline {1.2.4}Programmable Logic Controller (PLCs) }{13}
+\contentsline {subsection}{\numberline {1.2.5}5 HP AC Drive}{13}
+\contentsline {subsection}{\numberline {1.2.6}Motor Starter}{16}

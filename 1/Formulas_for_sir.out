@@ -1,0 +1,12 @@
+\BOOKMARK [0][-]{chapter.1}{}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Non-linear Regression}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Polynomial Regression}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Exponential regression}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{Step Regression}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Levenberg-Marquardt Algorithm}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{The problem statement}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Solution}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Trip calculations}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{Rectangular Sag curves}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{Contactor sag curves}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{Process Trip}{section.1.3}% 12

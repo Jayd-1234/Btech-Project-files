@@ -1,0 +1,137 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.3)  7 DEC 2017 23:22
+entering extended mode
+**./Literature_review.tex
+(Literature_review.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\extsizes\extreport.cls"
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\exscale.sty"
+Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(Literature_review.aux)
+\openout1 = `Literature_review.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\OT1/cmr/m/n/12 Xiao,college of elec-tri-cal en-gi-neer-ing.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Overfull \hbox (0.45547pt too wide) in paragraph at lines 42--48
+[]\OT1/cmr/bx/n/12 Name of the au-thor:\OT1/cmr/m/n/12 Cheng- Chieh Shen, stu-d
+ent mem-ber, IEEE
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+[1
+
+{C:/Users/Jaydeep/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (7.57652pt too wide) in paragraph at lines 155--170
+\OT1/cmr/m/n/12 Ed-uardo A. Cano Plat, se-nior mem-ber, IEEE An-dres Fe-lipe Sa
+lazar-
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.202 \end{enumerate}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ´ in font cmr12!
+[2] [3]
+Overfull \hbox (27.61226pt too wide) in paragraph at lines 445--450
+[]\OT1/cmr/bx/n/12 Name of the au-thor:\OT1/cmr/m/n/12 J.V.Milanovic, se-nior m
+em-ber, IEEE C.P.Gupta,
+ []
+
+[4]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Overfull \hbox (24.61226pt too wide) in paragraph at lines 511--516
+[]\OT1/cmr/bx/n/12 Nameof the au-thor:\OT1/cmr/m/n/12 J.V.Milanovic, se-nior me
+m-ber, IEEE C.P.Gupta,
+ []
+
+
+Overfull \hbox (20.6026pt too wide) in paragraph at lines 546--554
+[]\OT1/cmr/bx/n/12 Name of the chap-ter:\OT1/cmr/m/n/12 Analysis of volt-age to
+l-er-ance of AC adjustable-
+ []
+
+
+Overfull \hbox (2.32152pt too wide) in paragraph at lines 560--567
+[]\OT1/cmr/bx/n/12 Journal:\OT1/cmr/m/n/12 IEEE trans-ac-tions on in-dus-try ap
+-pli-ca-tions, Vol.36, No.3,
+ []
+
+[5]
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ‡ in font cmr12!
+ [6] (Literature_review.aux) ) 
+Here is how much of TeX's memory you used:
+ 260 strings out of 493312
+ 4842 string characters out of 3138893
+ 59761 words of memory out of 3000000
+ 3887 multiletter control sequences out of 15000+200000
+ 4245 words of font info for 16 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,4n,20p,198b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr12.pfb>
+Output written on Literature_review.pdf (6 pages, 47037 bytes).
+PDF statistics:
+ 29 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

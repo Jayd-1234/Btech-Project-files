@@ -1,0 +1,49 @@
+
+\documentclass[12pt, onecolumn]{ieeetran}
+\usepackage{amsmath}
+
+\begin{document}
+	\section{Overview of The problem}
+	 You are requested to perform the STFT (Short-Time Fourier transform) over a generalized harmonic  sine wave, and report the power contained by each harmonics in the resulting Frequency scale.
+	 
+	 \section{Generalized wave equation}
+	 Consider a generalized harmonic wave given by 
+	 \begin{equation}
+	 v(t) = \sum_{i=1}^{n}{a_{i}*\sin(i\omega t)}
+	 \end{equation}
+	 
+	 which upon expansion gives :
+	 $$
+	 	v(t) = a_{1}sin(\omega t)+a_{2}sin(2\omega t)+\ldots+a_{n}sin(n\omega t)
+	 $$
+	 
+	 
+	 Take it's discrete time form 
+	 \begin{equation}
+	 v[n] = \sum_{i=1}^{n}{a_{i}sin(i*2\pi f n)}
+	 \end{equation}
+	 
+	 \section{short-time fourier transform} The Short-time fourier transform,in it's simple terms, performs the following:
+	 \begin{enumerate}
+	 \item Consider a window of length $N_{w}$. It can be any standard window. We shall consider Blackman, but do with Hamming, if it's too complex. Let's denote it with $w[n]$.
+	 \item Divide the signal into chunks of length $N_{w}$, and window it. Let the windowed signal be $v_{w}[n] = v[n]*w[n]$. We shall get a number of such windowed chunks.
+	 
+	 \item Perform a Nfft sized DFT on each windowed chunk. Store each complex DFT chunk. This will give us a matrix with Nfft rows.
+	 
+	 \item Now calculate the energy of each frequency as normalized square amplitude. Store that expression.
+	 
+	    
+	 \end{enumerate}
+	 
+	 
+	 For reference, look up wikipedia, as well as oppenheim. The windowing process is sometimes called Welch windowing process. A sample implementation is available in matlab as spectrogram function. Have a look at it.
+	 
+	 
+	 I request you to please complete this by monday,if possible. Else, by tuesday. I don't want to be late like last time. You can play with Matlab to get a feel for how STFT works. During fault regions, there will be a surge in power in fundamental as well a higher order harmonics energies. I want to capture that for fault detection. 
+	 
+	 
+	 Divide the work if needed. 
+	 
+	 
+	 \centering \textbf{Thank you}
+\end{document}
