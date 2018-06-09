@@ -48,9 +48,9 @@ We can use the above facts for creating the CUDA function. We form 3D grid and b
 
 Then 
 ```c
-i =  blockIdx.x*blockDim.x+threadIdx.x;
-j =  blockIdx.y*blockDim.y+threadIdx.y; 
-k =  blockIdx.z*blockDim.z+threadIdx.z;
+int i =  blockIdx.x*blockDim.x+threadIdx.x;
+int j =  blockIdx.y*blockDim.y+threadIdx.y; 
+int k =  blockIdx.z*blockDim.z+threadIdx.z;
 ```
 
 We now do the following:
